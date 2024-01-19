@@ -1,9 +1,10 @@
 * {
-    margin: 1;
-    padding: 1;
+    margin: 0;
+    padding: 0;
     box-sizing: border-box;
     background-color: #ecf0f3;
-    font-family: sans-serif;
+    font-family: Arial, sans-serif;
+    /* Added a more specific font stack */
     outline: none;
 }
 
@@ -48,13 +49,33 @@ button {
     border: none;
     border-radius: 50%;
     color: black;
-    border-color: red;
     font-size: 25px;
     margin: 8px;
+    cursor: pointer;
+    /* Added to indicate interactivity */
+    transition: background-color 0.3s ease;
+    /* Added for a smooth hover effect */
+}
+
+button:hover {
+    background-color: #d4d8da;
+    /* Adjust as per your design */
 }
 
 .equal {
-    width: 70px;
+    width: 60px;
     height: 55px;
     border-radius: 35px;
+}
+
+.clock {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    font-size: larger;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    background-color: lightseagreen; /* Set the background color to the desired green */
+    padding: 4px;
+    border-radius: 10px;
+    color: black;
 }
