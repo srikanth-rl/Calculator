@@ -14,7 +14,7 @@ This is a simple calculator web application designed to perform basic mathematic
    - The "%" button allows you to calculate percentages.
 
 3. **Clear Functionality:**
-   - The "C" button clears the input field, allowing you to start a new calculation.
+   - The "Clr" button clears the input field, allowing you to start a new calculation.
 
 4. **Delete Functionality:**
    - The "Del" button deletes the last entered digit or operator.
@@ -50,6 +50,6 @@ Suppose you want to calculate 25 + 5 * 3. Here's how you can do it:
 This calculator app is open-source and free to use. Feel free to modify and enhance it according to your needs.
 
 ## Output
-<img width="917" alt="image_2024-01-19_23-30-42 (2)" src="https://github.com/srikanth-rl/Calculator/assets/98140086/4db98bb6-c579-46b7-b0c5-a9086f669178">
-<img width="938" alt="image_2024-01-19_23-30-42" src="https://github.com/srikanth-rl/Calculator/assets/98140086/b1cd9804-17b8-45e8-9974-96b2ef351e66">
 <img width="947" alt="image_2024-01-19_23-30-41" src="https://github.com/srikanth-rl/Calculator/assets/98140086/bcf5d929-6ef4-4a08-a047-e0ceafd8aca9">
+<img width="938" alt="image_2024-01-19_23-30-42" src="https://github.com/srikanth-rl/Calculator/assets/98140086/b1cd9804-17b8-45e8-9974-96b2ef351e66">
+<img width="917" alt="image_2024-01-19_23-30-42 (2)" src="https://github.com/srikanth-rl/Calculator/assets/98140086/4db98bb6-c579-46b7-b0c5-a9086f669178">
