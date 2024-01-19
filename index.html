@@ -12,6 +12,12 @@
 <body>
     <div class="Main">
         <div class="calculator">
+            <div class="clock">
+                <span id="hrs"></span>:
+                <span id="min"></span>:
+                <span id="sec"></span>
+                <span id="ampm"></span>
+            </div>
             <input type="text" placeholder="LOVE MATHS!" id="output-screen">
             <button onclick="Clear()">Clr</button>
             <button onclick="Delete()">Del</button>
@@ -32,6 +38,7 @@
             <button onclick="display('.')">.</button>
             <button onclick="display('0')">0</button>
             <button onclick="Calculate()" class="equal">=</button>
+            <button onclick="calculateFactorial()">!</button>
         </div>
     </div>
     <script src="functions.js"></script>
