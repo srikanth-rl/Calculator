@@ -12,13 +12,12 @@ function display(num) {
     output.value += num;
 }
 
-function Clear() {
-    output.value = "";
+function Delete() {
+    const cursorPos = output.selectionStart;
+    output.value = output.value.slice(0, cursorPos - 1) + output.value.slice(cursorPos);
+    output.setSelectionRange(cursorPos - 1, cursorPos - 1); // Set the cursor position after deletion
 }
 
-function Delete() {
-    output.value = output.value.slice(0, -1);
-}
 
 function factorial(no) {
     if (no <= 1n) return 1n;
@@ -32,7 +31,7 @@ function calculateFactorial() {
 
 document.addEventListener("keydown", function (event) {
     // Check if the pressed key is a number (0-9), an arithmetic operator, the Enter key, the factorial key, or the Backspace key
-    if (
+ if (
         (event.key >= '0' && event.key <= '9') ||
         ['+', '-', '*', '/', '%'].includes(event.key) ||
         event.key === 'Enter' ||
@@ -46,13 +45,15 @@ document.addEventListener("keydown", function (event) {
         } else if (event.key.toLowerCase() === 'f') {
             calculateFactorial();
         } else if (event.key === 'Backspace') {
-            if (event.ctrlKey) {
-                Clear(); // Clear the entire input on Ctrl + Backspace
-            } else {
-                Delete();
+            const cursorPos = output.selectionStart;
+            if (cursorPos > 0) {
+                output.value = output.value.slice(0, cursorPos - 1) + output.value.slice(cursorPos);
+                output.setSelectionRange(cursorPos - 1, cursorPos - 1); // Set the cursor position after deletion
             }
         } else {
-            display(event.key);
+            const cursorPos = output.selectionStart;
+            output.value = output.value.slice(0, cursorPos) + event.key + output.value.slice(cursorPos);
+            output.setSelectionRange(cursorPos + 1, cursorPos + 1); // Set the cursor position after adding the new character
         }
     }
 });
