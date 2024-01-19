@@ -36,11 +36,11 @@ This is a simple calculator web application designed to perform basic mathematic
    - Press the `F` key or use the factorial button to calculate the factorial.
 
 2. **Clear and Delete:**
-   - Use the `Clr` button to clear the entire input.
-   - Use the `Del` button to delete the character at the cursor position.
+   - Use the `Clr` button or Click `ctrl + backspace` to clear the entire input.
+   - Use the `Del` button or Click `backspace` to delete the character at the cursor position.
 
 3. **Calculate:**
-   - Click the `=` button to perform the calculation.
+   - Click the `=` button or Press `Enter` key to perform the calculation.
    - The result will be displayed in the input field.
 
 ## Example
