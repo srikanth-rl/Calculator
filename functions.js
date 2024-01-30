@@ -29,7 +29,6 @@ function calculateFactorial() {
 }
 
 document.addEventListener("keydown", function (event) {
-    // Check if the pressed key is a number (0-9), an arithmetic operator, the Enter key, the factorial key, or the Backspace key
  if (
         (event.key >= '0' && event.key <= '9') ||
         ['+', '-', '*', '/', '%'].includes(event.key) ||
