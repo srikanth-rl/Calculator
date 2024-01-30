@@ -18,7 +18,6 @@ function Delete() {
     output.setSelectionRange(cursorPos - 1, cursorPos - 1); // Set the cursor position after deletion
 }
 
-
 function factorial(no) {
     if (no <= 1n) return 1n;
     return no * factorial(no - 1n);
