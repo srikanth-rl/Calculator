@@ -54,3 +54,4 @@ Suppose you want to calculate `25 + 5 * 3`. Here's how you can do it:
 This calculator app is open-source and free to use. Feel free to modify and enhance it according to your needs.
 
 ## Screenshots
+![image](https://github.com/srikanth-rl/Calculator/assets/98140086/dd3f9a21-e375-458c-88a6-4bced37a1ea0)
