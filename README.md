@@ -55,4 +55,3 @@ This calculator app is open-source and free to use. Feel free to modify and enha
 
 ## Screenshots
 ![Screenshot 2](https://github.com/srikanth-rl/Calculator/assets/98140086/b1cd9804-17b8-45e8-9974-96b2ef351e66)
-![Screenshot 3](https://github.com/srikanth-rl/Calculator/assets/98140086/4db98bb6-c579-46b7-b0c5-a9086f669178)
