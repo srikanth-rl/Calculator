@@ -27,6 +27,12 @@ This is a simple calculator web application designed to perform basic mathematic
 
 7. **Factorial Calculation:**
    - Press the `F` key or use the factorial button to calculate the factorial of the number at the cursor position.
+     
+8. **Prime Calculation:**
+   - Possible to check prime or not upto `17 Digits`.
+
+9. **Remainder Calculation:**
+   - Possible to calculate mod for any 2 numbers,also available for negative numbers. 
 
 ## How to Use
 1. **Input:**
@@ -55,3 +61,6 @@ This calculator app is open-source and free to use. Feel free to modify and enha
 
 ## Screenshots
 ![image](https://github.com/srikanth-rl/Calculator/assets/98140086/dd3f9a21-e375-458c-88a6-4bced37a1ea0)
+
+## For Usage:
+https://srikanth-web-calculator.on.drv.tw/app/
